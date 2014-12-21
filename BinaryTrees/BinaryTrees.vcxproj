@@ -39,8 +39,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir)\The Art and Sience of C - lib;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\The Art and Sience of C - lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\The Art and Sience of C - lib;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\The Art and Sience of C - lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
